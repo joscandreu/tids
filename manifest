@@ -4,10 +4,10 @@
 #
 version: 0.1
 apiversion: 2
-description: My module
-author: Your Name
-license: Specify your license
-copyright: Copyright (c) 2012 by Your Company
+description: tids
+author: jordi domenech
+license: Apache License, Version 2.0
+copyright: Copyright (c) 2012 by jordi domenech <jordi@iamyellow.net>
 
 
 # these should not be edited
@@ -15,4 +15,4 @@ name: tids
 moduleid: net.iamyellow.tids
 guid: 20f7c238-afc5-4b14-a674-5d72e366675c
 platform: iphone
-minsdk: 2.1.3
+minsdk: 2.0.2

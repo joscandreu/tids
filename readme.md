@@ -6,7 +6,7 @@
 
 - It also exposes the **old Ti.Platform.id value** returned before Apple deprecated the UDID and Appcelerator made the changes in Titanium.
 
-- In order to keep safe the OpenUDID across multiple app installations, **tIDs stores the OpenUDID in iOS Keychain**.
+- In order to keep safe the OpenUDID across multiple app installations, **tIDs saves the OpenUDID in iOS Keychain**.
 
 ## Using the module
 
