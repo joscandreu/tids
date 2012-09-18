@@ -4,9 +4,7 @@
 
 - tIDs is a Javascript wrapper for [OpenUDID](https://github.com/ylechelle/OpenUDID), a drop-in replacement for the deprecated uniqueIdentifier property of the UIDevice class on iOS (a.k.a. UDID)
 
-- It also exposes the **old Ti.Platform.id value** returned before Apple deprecated the UDID and Appcelerator made the changes in Titanium.
-
-- In order to keep safe the OpenUDID across multiple app installations, **tIDs saves the OpenUDID in iOS Keychain**.
+- In order to keep safe the OpenUDID across multiple app installations, **tIDs stores the OpenUDID in iOS Keychain**.
 
 ## Using the module
 
@@ -14,7 +12,6 @@
 var tids = require('net.iamyellow.tids');
 
 Ti.API.info('OpenUDID is ' + tids.openUDID);
-Ti.API.info('The old Titanium\'s ID is ' + tids.oldUDID);
 ```
 
 ## Author
