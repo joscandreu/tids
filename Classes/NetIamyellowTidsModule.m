@@ -76,28 +76,4 @@ static NSString* const kOpenUDIDKey = @"NetIamyellowTidsModuleOpenUDID";
     return _openUDID;
 }
 
-/**
- * oldUDID
- * Copyright (c) 2009-2010 by Appcelerator, Inc. and licensed under the Apache Public License (version 2)
- */
-
--(id)oldUDID
-{
-    NSString* uid;
-    
-    if ([[UIDevice currentDevice] respondsToSelector:@selector(uniqueIdentifier)]) {
-        
-    	uid = [[UIDevice currentDevice] uniqueIdentifier];
-        
-    	if (uid) {
-	        return uid;
-        } else {
-            return @"";
-        }
-        
-    } else {
-        return @"";
-    }
-}
-
 @end
